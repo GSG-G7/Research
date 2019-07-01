@@ -14,7 +14,7 @@ We used it to search, edit,vaildate input and manipulate string.
 
 ###  There are two ways to create a RegExp:
 - **first:** pregular expression literal,which is a pattern enclosed between slashes, as follows:
-var re = /ab+c/;
+* var re = /ab+c/;
 this way provide compilation of the regular expression when the script is loaded.
 
 - **Second:** calling the constructor function of the RegExp object, as follows:
@@ -25,22 +25,25 @@ this way provides runtime compilation of the regular expression. that's mean
 /pattern/modifiers
 
 ### Example
+```
 var patt = /regularexp/i;
+```
 
 ## Regular Expression Modifiers
-i relate for case-insensitive
-g relate for global match
-m relate for multiline matching
+* i relate for case-insensitive
+* g relate for global match
+* m relate for multiline matching
 
 ### Example
-string s = "\nIs th\nis it?"
-var allModifiers = /is/igm;
-
-### Output:\
+```
+ string s = "\nIs th\nis it?"
+ var allModifiers = /is/igm;
+```
+### Output:
  Is,is
 
 
-##Regular Expression Patterns:
+## Regular Expression Patterns:
 We use Brackets to find a range of characters:
 [abc]
 [0-9]
@@ -56,15 +59,19 @@ n* 	Matches any string that contains zero or more occurrences of n
 
 
 ## Example for +
+```
 var str = "Hellooo World! Hello W3Schools!"; 
 var patt1 = /lo+/g;
 var result = str.match(patt1);
+```
 ## output:
 looo,lo
 ## Example for *
+```
 var str = "Hellooo World! Hello W3Schools!"; 
 var patt1 = /lo*/g;
  var result = str.match(patt1);
+ ```
 ## output:
 l,looo,l,l,lo,l
 
@@ -72,22 +79,22 @@ l,looo,l,l,lo,l
 
 ### Reg Exp Methods;
 
-test() :returns boolean
-
+**test()** :returns boolean
+```
 var patt = /e/;
 patt.test("The best things in life are free!");
+```
+
+**exec()**: returns object
 
 
-exec(): returns object
+### String Methods:
 
+* match()
+* matchAll()
+* search()
+* replace()
+* split()
 
-String Methods:
-
-match()
-matchAll()
-search()
-replace()
-split()
-
-
+Site to use regular expression
 https://regex101.com
