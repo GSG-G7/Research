@@ -1,7 +1,7 @@
 # week1
 # **CSS Team**
 
-# The Resarchers:
+# The Research Team:
 
  - Sajeda Ismail
  - Imad El-Shataly
