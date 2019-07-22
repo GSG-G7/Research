@@ -26,16 +26,20 @@ Are design patterns that deal with object creation mechanisms, trying to create 
 ### **Problem :**
 
 Ensure that a class has just a single instance
-![Singleton Example](https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-en.png)
 
 Provide a global access point to the instace
+
+![Singleton Example](https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-en.png)
+
+
 
 ### **Solution :**
 
 All solutions have two steps in common:
-the first one is :
-Make the default constructor private
-the second one: create a static creation method that acts as a constructor.
+
+- the first one is : Make the default constructor private
+
+- the second one: create a static creation method that acts as a constructor.
 
 ### **Strucure :**
 
@@ -84,6 +88,12 @@ var printer = (function () {
 })();
 ```
 
+* Generate a printer instance by interacting with the getInstance method, like so:
+
+```javascript
+var officePrinter = printer.getInstance();
+```
+
 ## **Structural Design Patterns**
 
 Are design patterns that ease the design by identifying a simple way to realize relationships between entities.
@@ -122,3 +132,4 @@ Are design patterns that identify common communication patterns between objects 
 ## References:
 
 https://www.dofactory.com/javascript/design-patterns
+https://refactoring.guru/design-patterns/singleton
