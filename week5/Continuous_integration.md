@@ -47,27 +47,30 @@ Automate the build
 1) Buddy : 
 </br>
 tool for web developers designed to lower the entry threshold to DevOps. It uses delivery pipelines to build, test and deploy software. 
+</br>
 ![](https://www.guru99.com/images/1/buddy_logo.png)
 2) Jenkins:
 </br>
 open-source continuous integration tool. It is written using the Java programming language. It facilitates real-time testing and reporting on isolated changes in a larger code base.
-
+</br>
 ![](https://www.guru99.com/images/2-2017/072817_0526_Top20Contin1.png)
 
 3) TeamCity:
 </br> 
 Continuous Integration server which supports many powerful features.
-
+</br>
 ![](https://www.guru99.com/images/2-2017/072817_0526_Top20Contin2.png)
 
 4) GoCD:
 </br>
 Open source Continuous Integration server. It is used to model and visualize complex workflows with ease.
+</br>
 ![](https://www.guru99.com/images/2-2017/072817_0526_Top20Contin4.png)
 
 5) Travis CI:
 </br>
 Travis is a popular CI Tool that is free for open source projects. As it is hosted, it does not have to depend on any platform. This CI tool provides supports for many build configuration and languages like Node, PHP, Python, Java, Perl, etc.
+</br>
 ![](https://www.guru99.com/images/2-2017/072817_0526_Top20Contin3.png)
 
 ### Features:
