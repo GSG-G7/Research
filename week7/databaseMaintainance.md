@@ -53,4 +53,4 @@ instead of writing your SQL statements in terminal, EACH TIME you want/need to c
 - Liquibase
 
 
-## Thank you for listening :hatched_chick: 
+## Thank you for listening :hatched_chick: [hackmd link](https://hackmd.io/@eOiMZS0rSCmVWwvXjSW7XQ/H1KSi-uES#/)
