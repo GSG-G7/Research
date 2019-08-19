@@ -1,4 +1,5 @@
 
+
 ## What is primary key ?? 
 *  Is a field in a table which uniquely identifies    each row/record in a database table.
 * Primary keys must contain unique values.
@@ -102,9 +103,9 @@ A database schema is a visual and logical architecture of a database.
    By knowing the size of data you will be storing in the database
 
  ## websites to generate schemas :
-* dbdiagram
-link : https://dbdiagram.io/home?utm_source=holistics&utm_medium=top_5_tools_blog
-Image website: https://www.holistics.io/blog/content/images/2018/08/dbdiagram.io-editor-1.png
+* [dbdiagram](https://dbdiagram.io/home?utm_source=holistics&utm_medium=top_5_tools_blog)
+
+![](https://www.holistics.io/blog/content/images/2018/08/dbdiagram.io-editor-1.png)
 </br>
  * [Draw](https://www.draw.io/) : 
 ![](https://www.holistics.io/blog/content/images/2018/08/draw.io-database-diagram-1.png)
