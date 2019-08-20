@@ -104,7 +104,6 @@ CREATE TABLE services ( <br>
  ## websites to generate schemas :
 * [dbdiagram](https://dbdiagram.io/home?utm_source=holistics&utm_medium=top_5_tools_blog)
 ![](https://www.holistics.io/blog/content/images/2018/08/dbdiagram.io-editor-1.png)
-</br>
  * [Draw](https://www.draw.io/) : 
 ![](https://www.holistics.io/blog/content/images/2018/08/draw.io-database-diagram-1.png)
 * [Lucidchart](https://www.lucidchart.com/)
