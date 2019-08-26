@@ -8,7 +8,7 @@
 
 ---
 
-# Stateless Authentication:
+## Stateless Authentication:
 
 This means that no data persists on the server in relation to individual tokens. Token-based authentication is stateless. The server does not keep a record of which users are logged in. Instead, every request to the server is accompanied by a token which the server uses to verify the authenticity of the request.
 
